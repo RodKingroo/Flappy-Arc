@@ -1,0 +1,12 @@
+D:\Project\FlappyArc.Windows\Tsuki.Framework.Core\bin\Debug\net6.0\Tsuki.Framework.Core.deps.json
+D:\Project\FlappyArc.Windows\Tsuki.Framework.Core\bin\Debug\net6.0\Tsuki.Framework.Core.dll
+D:\Project\FlappyArc.Windows\Tsuki.Framework.Core\bin\Debug\net6.0\Tsuki.Framework.Core.pdb
+D:\Project\FlappyArc.Windows\Tsuki.Framework.Core\obj\Debug\net6.0\Tsuki.Framework.Core.csproj.AssemblyReference.cache
+D:\Project\FlappyArc.Windows\Tsuki.Framework.Core\obj\Debug\net6.0\Tsuki.Framework.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\FlappyArc.Windows\Tsuki.Framework.Core\obj\Debug\net6.0\Tsuki.Framework.Core.AssemblyInfoInputs.cache
+D:\Project\FlappyArc.Windows\Tsuki.Framework.Core\obj\Debug\net6.0\Tsuki.Framework.Core.AssemblyInfo.cs
+D:\Project\FlappyArc.Windows\Tsuki.Framework.Core\obj\Debug\net6.0\Tsuki.Framework.Core.csproj.CoreCompileInputs.cache
+D:\Project\FlappyArc.Windows\Tsuki.Framework.Core\obj\Debug\net6.0\Tsuki.Framework.Core.dll
+D:\Project\FlappyArc.Windows\Tsuki.Framework.Core\obj\Debug\net6.0\refint\Tsuki.Framework.Core.dll
+D:\Project\FlappyArc.Windows\Tsuki.Framework.Core\obj\Debug\net6.0\Tsuki.Framework.Core.pdb
+D:\Project\FlappyArc.Windows\Tsuki.Framework.Core\obj\Debug\net6.0\ref\Tsuki.Framework.Core.dll
