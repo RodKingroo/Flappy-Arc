@@ -119,8 +119,8 @@ namespace Tsuki.Framework.Core.Platform
                 if (!IsMultiThreaded)
                 {
                     double timeToNextRenderFrame = DispatchRenderFrame();
-
                     sleepTime = Math.Min(sleepTime, timeToNextRenderFrame);
+
                 }
 
                 if (sleepTime > 0) Thread.Sleep((int)Math.Floor(sleepTime * 1000));
@@ -140,7 +140,7 @@ namespace Tsuki.Framework.Core.Platform
         private double DispatchUpdateFrame()
         {
             var isRunningSlowlyRetries = 4;
-            var elapsed = _watchUpdate.Elapsed.TotalSeconds;
+            var elapsed = _watchUpdate.Elapsed.TotalMilliseconds;
 
             var updatePeriod = UpdateFrequency == 0 ? 0 : 1 / UpdateFrequency;
 
