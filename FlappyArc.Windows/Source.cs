@@ -9,7 +9,8 @@ namespace FlappyArc.Windows
         private static void Main(string[] args)
         {
             GameHost host = new WindowsGameHost(NativeConfig.nativeWindowSettings, GameWindowSettings.Default);
-            host.Run();
+            Game game = new FlappyGame();
+            host.Run(game);
             
         }
     }

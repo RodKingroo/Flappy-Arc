@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\FlappyArc.Windows\\Tsuki.Framework.Novel\\Tsuki.Framework.Novel.csproj",
+      "projectUniqueName": "D:\\Codes\\Flappy-Arc\\Tsuki.Framework.Novel\\Tsuki.Framework.Novel.csproj",
       "projectName": "Tsuki.Framework.Novel",
-      "projectPath": "D:\\Project\\FlappyArc.Windows\\Tsuki.Framework.Novel\\Tsuki.Framework.Novel.csproj",
+      "projectPath": "D:\\Codes\\Flappy-Arc\\Tsuki.Framework.Novel\\Tsuki.Framework.Novel.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\FlappyArc.Windows\\Tsuki.Framework.Novel\\obj\\",
+      "outputPath": "D:\\Codes\\Flappy-Arc\\Tsuki.Framework.Novel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

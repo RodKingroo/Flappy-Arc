@@ -1,7 +1,8 @@
 ﻿using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.Common;
-using System.Diagnostics;
 using OpenTK.Windowing.GraphicsLibraryFramework;
+using System.Diagnostics;
+
 
 namespace Tsuki.Framework.Core
 {
@@ -9,14 +10,12 @@ namespace Tsuki.Framework.Core
     {
         private const double MaxFrequency = 500.0;
 
-        public event Action Load;
-        public event Action Unload;
+        public event Action? Load;
+        public event Action? Unload;
+        public event Action? RenderThreadStarted;
 
-        public event Action<FrameEventArgs> UpdateFrame;
-
-        public event Action RenderThreadStarted;
-
-        public event Action<FrameEventArgs> RenderFrame;
+        public event Action<FrameEventArgs>? UpdateFrame;
+        public event Action<FrameEventArgs>? RenderFrame;
 
         private readonly Stopwatch _watchRender = new();
         private readonly Stopwatch _watchUpdate = new();
@@ -28,7 +27,7 @@ namespace Tsuki.Framework.Core
         private double _renderFrequency;
         private double _updateFrequency;
 
-        private Thread _renderThread;
+        private Thread? _renderThread;
 
         public bool IsMultiThreaded { get; }
 
@@ -53,8 +52,8 @@ namespace Tsuki.Framework.Core
             }
         }
 
-        public double RenderTime { get; protected set; }
-        public double UpdateTime { get; protected set; }
+        public double RenderTime { get; set; }
+        public double UpdateTime { get; set; }
 
         public double UpdateFrequency
         {
@@ -85,7 +84,7 @@ namespace Tsuki.Framework.Core
 
         }
 
-        public virtual unsafe void Run()
+        public virtual void Run(Game game)
         {
             Context?.MakeCurrent();
             OnLoad();
@@ -102,6 +101,13 @@ namespace Tsuki.Framework.Core
 
             _watchRender.Start();
             _watchUpdate.Start();
+
+            OnSleep();
+            OnUnload();
+        }
+
+        private unsafe void OnSleep()
+        {
             while (GLFW.WindowShouldClose(WindowPtr) == false)
             {
                 double timeToNextUpdateFrame = DispatchUpdateFrame();
@@ -114,10 +120,8 @@ namespace Tsuki.Framework.Core
                     sleepTime = Math.Min(sleepTime, timeToNextRenderFrame);
                 }
 
-                if (sleepTime > 0) Thread.Sleep((int)Math.Floor(sleepTime * 1000)); 
+                if (sleepTime > 0) Thread.Sleep((int)Math.Floor(sleepTime * 1000));
             }
-
-            OnUnload();
         }
 
         private unsafe void StartRenderThread()
@@ -180,7 +184,6 @@ namespace Tsuki.Framework.Core
             return RenderFrequency == 0 ? 0 : renderPeriod - elapsed;
         }
 
-        /// <inheritdoc />
         public override void Close() => base.Close(); 
 
         protected virtual void OnRenderThreadStarted() => RenderThreadStarted?.Invoke();
@@ -189,7 +192,6 @@ namespace Tsuki.Framework.Core
         protected virtual void OnUnload() => Unload?.Invoke();
 
         protected virtual void OnUpdateFrame(FrameEventArgs args) => UpdateFrame?.Invoke(args);
-
         protected virtual void OnRenderFrame(FrameEventArgs args) => RenderFrame?.Invoke(args);
 
     }

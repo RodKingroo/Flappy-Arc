@@ -202,6 +202,20 @@
           }
         }
       },
+      "FlappyArc/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Tsuki.Framework.Core": "1.0.0",
+          "Tsuki.Framework.Novel": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/FlappyArc.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FlappyArc.dll": {}
+        }
+      },
       "Tsuki.Framework.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -213,6 +227,16 @@
         },
         "runtime": {
           "bin/placeholder/Tsuki.Framework.Core.dll": {}
+        }
+      },
+      "Tsuki.Framework.Novel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Tsuki.Framework.Novel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tsuki.Framework.Novel.dll": {}
         }
       }
     }
@@ -415,14 +439,25 @@
         "version.txt"
       ]
     },
+    "FlappyArc/1.0.0": {
+      "type": "project",
+      "path": "../FlappyArc/FlappyArc.csproj",
+      "msbuildProject": "../FlappyArc/FlappyArc.csproj"
+    },
     "Tsuki.Framework.Core/1.0.0": {
       "type": "project",
       "path": "../Tsuki.Framework.Core/Tsuki.Framework.Core.csproj",
       "msbuildProject": "../Tsuki.Framework.Core/Tsuki.Framework.Core.csproj"
+    },
+    "Tsuki.Framework.Novel/1.0.0": {
+      "type": "project",
+      "path": "../Tsuki.Framework.Novel/Tsuki.Framework.Novel.csproj",
+      "msbuildProject": "../Tsuki.Framework.Novel/Tsuki.Framework.Novel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "FlappyArc >= 1.0.0",
       "Tsuki.Framework.Core >= 1.0.0"
     ]
   },
@@ -433,11 +468,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\FlappyArc.Windows\\FlappyArc.Windows\\FlappyArc.Windows.csproj",
+      "projectUniqueName": "D:\\Codes\\Flappy-Arc\\FlappyArc.Windows\\FlappyArc.Windows.csproj",
       "projectName": "FlappyArc.Windows",
-      "projectPath": "D:\\Project\\FlappyArc.Windows\\FlappyArc.Windows\\FlappyArc.Windows.csproj",
+      "projectPath": "D:\\Codes\\Flappy-Arc\\FlappyArc.Windows\\FlappyArc.Windows.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\FlappyArc.Windows\\FlappyArc.Windows\\obj\\",
+      "outputPath": "D:\\Codes\\Flappy-Arc\\FlappyArc.Windows\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -459,8 +494,11 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "D:\\Project\\FlappyArc.Windows\\Tsuki.Framework.Core\\Tsuki.Framework.Core.csproj": {
-              "projectPath": "D:\\Project\\FlappyArc.Windows\\Tsuki.Framework.Core\\Tsuki.Framework.Core.csproj"
+            "D:\\Codes\\Flappy-Arc\\FlappyArc\\FlappyArc.csproj": {
+              "projectPath": "D:\\Codes\\Flappy-Arc\\FlappyArc\\FlappyArc.csproj"
+            },
+            "D:\\Codes\\Flappy-Arc\\Tsuki.Framework.Core\\Tsuki.Framework.Core.csproj": {
+              "projectPath": "D:\\Codes\\Flappy-Arc\\Tsuki.Framework.Core\\Tsuki.Framework.Core.csproj"
             }
           }
         }
