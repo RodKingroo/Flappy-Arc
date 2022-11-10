@@ -12,6 +12,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FlappyArc\FlappyArc.csproj" />
     <ProjectReference Include="..\Tsuki.Framework.Core\Tsuki.Framework.Core.csproj" />
   </ItemGroup>
 

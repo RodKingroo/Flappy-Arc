@@ -1,5 +1,6 @@
 ﻿using OpenTK.Windowing.Desktop;
 using Tsuki.Framework.Core;
+using Tsuki.Framework.Core.Platform;
 
 namespace FlappyArc.Windows
 {
@@ -8,7 +9,7 @@ namespace FlappyArc.Windows
         [STAThread]
         private static void Main(string[] args)
         {
-            GameHost host = new WindowsGameHost(NativeConfig.nativeWindowSettings, GameWindowSettings.Default);
+            GameHost host = Host.GetSuitableDeskHost(NativeConfig.nativeWindowSettings, GameWindowSettings.Default);
             Game game = new FlappyGame();
             host.Run(game);
             

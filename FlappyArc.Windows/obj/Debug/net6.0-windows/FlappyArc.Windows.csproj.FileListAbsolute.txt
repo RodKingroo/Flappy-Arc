@@ -62,3 +62,7 @@ D:\Codes\Flappy-Arc\FlappyArc.Windows\obj\Debug\net6.0-windows\refint\FlappyArc.
 D:\Codes\Flappy-Arc\FlappyArc.Windows\obj\Debug\net6.0-windows\FlappyArc.Windows.pdb
 D:\Codes\Flappy-Arc\FlappyArc.Windows\obj\Debug\net6.0-windows\FlappyArc.Windows.genruntimeconfig.cache
 D:\Codes\Flappy-Arc\FlappyArc.Windows\obj\Debug\net6.0-windows\ref\FlappyArc.Windows.dll
+D:\Codes\Flappy-Arc\FlappyArc.Windows\bin\Debug\net6.0-windows\FlappyArc.dll
+D:\Codes\Flappy-Arc\FlappyArc.Windows\bin\Debug\net6.0-windows\Tsuki.Framework.Novel.dll
+D:\Codes\Flappy-Arc\FlappyArc.Windows\bin\Debug\net6.0-windows\FlappyArc.pdb
+D:\Codes\Flappy-Arc\FlappyArc.Windows\bin\Debug\net6.0-windows\Tsuki.Framework.Novel.pdb
