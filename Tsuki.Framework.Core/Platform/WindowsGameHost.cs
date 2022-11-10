@@ -6,7 +6,7 @@ namespace Tsuki.Framework.Core.Platform
 {
     public class WindowsGameHost : DesktopGameHost
     {
-        public WindowsGameHost(NativeWindowSettings settings, GameWindowSettings gameWindowSettings) : base(settings, gameWindowSettings)
+        public WindowsGameHost(NativeWindowSettings settings, HostSettings gameWindowSettings) : base(settings, gameWindowSettings)
         {
         }
 

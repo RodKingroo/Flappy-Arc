@@ -29,7 +29,7 @@ namespace Tsuki.Framework.Core.Platform
 
         private Thread? _renderThread;
 
-        public bool IsMultiThreaded { get; }
+        public bool IsMultiThreaded { get; set; }
 
         public double RenderFrequency
         {
@@ -76,11 +76,14 @@ namespace Tsuki.Framework.Core.Platform
             }
         }
 
-        public GameHost(NativeWindowSettings nativeWindowSettings, GameWindowSettings gameWindowSettings) : base(nativeWindowSettings)
+        public HostSettings Settings { get; set; }
+        public NativeWindowSettings NativeSettings { get;set; }
+
+        public GameHost(NativeWindowSettings nativeWindowSettings, HostSettings hostSettings) : base(nativeWindowSettings)
         {
-            IsMultiThreaded = gameWindowSettings.IsMultiThreaded;
-            RenderFrequency = gameWindowSettings.RenderFrequency;
-            UpdateFrequency = gameWindowSettings.UpdateFrequency;
+            Settings = hostSettings ?? new HostSettings();
+            NativeSettings = nativeWindowSettings ?? new NativeWindowSettings();
+
 
         }
 

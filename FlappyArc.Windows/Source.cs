@@ -9,7 +9,7 @@ namespace FlappyArc.Windows
         [STAThread]
         private static void Main(string[] args)
         {
-            GameHost host = Host.GetSuitableDeskHost(NativeConfig.nativeWindowSettings, GameWindowSettings.Default);
+            GameHost host = Host.GetSuitableDeskHost(NativeConfig.nativeWindowSettings, HostSettings.Default);
             Game game = new FlappyGame();
             host.Run(game);
             

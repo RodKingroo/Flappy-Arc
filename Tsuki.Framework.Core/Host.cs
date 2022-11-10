@@ -5,7 +5,7 @@ namespace Tsuki.Framework.Core
 {
     public static class Host
     {
-        public static DesktopGameHost GetSuitableDeskHost (NativeWindowSettings settings, GameWindowSettings gameWindowSettings)
+        public static DesktopGameHost GetSuitableDeskHost (NativeWindowSettings settings, HostSettings gameWindowSettings)
         {
             switch (RuntimeInfo.OS)
             {
@@ -14,8 +14,8 @@ namespace Tsuki.Framework.Core
                 /* На будующее, вдруг ещё займусь этим =P */
                 /* case RuntimeInfo.Platform.Android:
                        return new AndroidGameHost(settings, gameWindowSettings)
-                   case RuntimeInfo.Platform.Android:
-                       return new AndroidGameHost(settings, gameWindowSettings)*/
+                   case RuntimeInfo.Platform.Linux:
+                       return new LinuxGameHost(settings, gameWindowSettings)*/
                 default:
                     throw new InvalidOperationException($"Unknown operating system ({RuntimeInfo.OS}).");
             }
