@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyArc.Windows", "FlappyArc.Windows\FlappyArc.Windows.csproj", "{80B73DBB-F20D-4E2A-8B54-61516A8D480A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlappyArc.Windows", "FlappyArc.Windows\FlappyArc.Windows.csproj", "{80B73DBB-F20D-4E2A-8B54-61516A8D480A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyArc", "FlappyArc\FlappyArc.csproj", "{65DE67F3-FEAA-46E3-9EFA-DC29E89B464F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlappyArc", "FlappyArc\FlappyArc.csproj", "{65DE67F3-FEAA-46E3-9EFA-DC29E89B464F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tsuki.Framework.Core", "Tsuki.Framework.Core\Tsuki.Framework.Core.csproj", "{BDDC3758-FF48-4339-ABDF-433B71831006}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tsuki.Framework.Core", "Tsuki.Framework.Core\Tsuki.Framework.Core.csproj", "{BDDC3758-FF48-4339-ABDF-433B71831006}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tsuki.Framework.Novel", "Tsuki.Framework.Novel\Tsuki.Framework.Novel.csproj", "{D302D0E7-73A4-4CDE-9BCA-E52171C781FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tsuki.Framework.Novel", "Tsuki.Framework.Novel\Tsuki.Framework.Novel.csproj", "{D302D0E7-73A4-4CDE-9BCA-E52171C781FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlappyArc.Resources", "FlappyArc.Resources\FlappyArc.Resources.csproj", "{82B52F7D-0A40-4510-90D2-7499A5F899B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{D302D0E7-73A4-4CDE-9BCA-E52171C781FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D302D0E7-73A4-4CDE-9BCA-E52171C781FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D302D0E7-73A4-4CDE-9BCA-E52171C781FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82B52F7D-0A40-4510-90D2-7499A5F899B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B52F7D-0A40-4510-90D2-7499A5F899B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B52F7D-0A40-4510-90D2-7499A5F899B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B52F7D-0A40-4510-90D2-7499A5F899B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

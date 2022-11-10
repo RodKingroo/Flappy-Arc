@@ -206,6 +206,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "FlappyArc.Resources": "1.0.0",
           "Tsuki.Framework.Core": "1.0.0",
           "Tsuki.Framework.Novel": "1.0.0"
         },
@@ -216,11 +217,22 @@
           "bin/placeholder/FlappyArc.dll": {}
         }
       },
+      "FlappyArc.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FlappyArc.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FlappyArc.Resources.dll": {}
+        }
+      },
       "Tsuki.Framework.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "OpenTK": "4.7.5"
+          "OpenTK": "4.7.5",
+          "Tsuki.Framework.Novel": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Tsuki.Framework.Core.dll": {}
@@ -444,6 +456,11 @@
       "path": "../FlappyArc/FlappyArc.csproj",
       "msbuildProject": "../FlappyArc/FlappyArc.csproj"
     },
+    "FlappyArc.Resources/1.0.0": {
+      "type": "project",
+      "path": "../FlappyArc.Resources/FlappyArc.Resources.csproj",
+      "msbuildProject": "../FlappyArc.Resources/FlappyArc.Resources.csproj"
+    },
     "Tsuki.Framework.Core/1.0.0": {
       "type": "project",
       "path": "../Tsuki.Framework.Core/Tsuki.Framework.Core.csproj",
@@ -458,7 +475,8 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "FlappyArc >= 1.0.0",
-      "Tsuki.Framework.Core >= 1.0.0"
+      "Tsuki.Framework.Core >= 1.0.0",
+      "Tsuki.Framework.Novel >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -499,6 +517,9 @@
             },
             "D:\\Codes\\Flappy-Arc\\Tsuki.Framework.Core\\Tsuki.Framework.Core.csproj": {
               "projectPath": "D:\\Codes\\Flappy-Arc\\Tsuki.Framework.Core\\Tsuki.Framework.Core.csproj"
+            },
+            "D:\\Codes\\Flappy-Arc\\Tsuki.Framework.Novel\\Tsuki.Framework.Novel.csproj": {
+              "projectPath": "D:\\Codes\\Flappy-Arc\\Tsuki.Framework.Novel\\Tsuki.Framework.Novel.csproj"
             }
           }
         }

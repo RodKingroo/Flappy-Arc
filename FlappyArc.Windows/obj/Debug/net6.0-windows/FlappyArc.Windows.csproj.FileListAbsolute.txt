@@ -66,3 +66,5 @@ D:\Codes\Flappy-Arc\FlappyArc.Windows\bin\Debug\net6.0-windows\FlappyArc.dll
 D:\Codes\Flappy-Arc\FlappyArc.Windows\bin\Debug\net6.0-windows\Tsuki.Framework.Novel.dll
 D:\Codes\Flappy-Arc\FlappyArc.Windows\bin\Debug\net6.0-windows\FlappyArc.pdb
 D:\Codes\Flappy-Arc\FlappyArc.Windows\bin\Debug\net6.0-windows\Tsuki.Framework.Novel.pdb
+D:\Codes\Flappy-Arc\FlappyArc.Windows\bin\Debug\net6.0-windows\FlappyArc.Resources.dll
+D:\Codes\Flappy-Arc\FlappyArc.Windows\bin\Debug\net6.0-windows\FlappyArc.Resources.pdb

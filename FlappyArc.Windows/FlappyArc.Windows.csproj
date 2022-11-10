@@ -14,6 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\FlappyArc\FlappyArc.csproj" />
     <ProjectReference Include="..\Tsuki.Framework.Core\Tsuki.Framework.Core.csproj" />
+    <ProjectReference Include="..\Tsuki.Framework.Novel\Tsuki.Framework.Novel.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,4 @@
-﻿using OpenTK.Windowing.Desktop;
+﻿using Tsuki.Framework.Novel;
 using Tsuki.Framework.Core;
 using Tsuki.Framework.Core.Platform;
 

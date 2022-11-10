@@ -201,6 +201,16 @@
             "related": ".xml"
           }
         }
+      },
+      "Tsuki.Framework.Novel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Tsuki.Framework.Novel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Tsuki.Framework.Novel.dll": {}
+        }
       }
     }
   },
@@ -401,11 +411,17 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Tsuki.Framework.Novel/1.0.0": {
+      "type": "project",
+      "path": "../Tsuki.Framework.Novel/Tsuki.Framework.Novel.csproj",
+      "msbuildProject": "../Tsuki.Framework.Novel/Tsuki.Framework.Novel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "OpenTK >= 4.7.5"
+      "OpenTK >= 4.7.5",
+      "Tsuki.Framework.Novel >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -440,7 +456,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Codes\\Flappy-Arc\\Tsuki.Framework.Novel\\Tsuki.Framework.Novel.csproj": {
+              "projectPath": "D:\\Codes\\Flappy-Arc\\Tsuki.Framework.Novel\\Tsuki.Framework.Novel.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

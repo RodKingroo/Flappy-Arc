@@ -9,7 +9,8 @@
       "FlappyArc.Windows/1.0.0": {
         "dependencies": {
           "FlappyArc": "1.0.0",
-          "Tsuki.Framework.Core": "1.0.0"
+          "Tsuki.Framework.Core": "1.0.0",
+          "Tsuki.Framework.Novel": "1.0.0"
         },
         "runtime": {
           "FlappyArc.Windows.dll": {}
@@ -157,6 +158,7 @@
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {},
       "FlappyArc/1.0.0": {
         "dependencies": {
+          "FlappyArc.Resources": "1.0.0",
           "Tsuki.Framework.Core": "1.0.0",
           "Tsuki.Framework.Novel": "1.0.0"
         },
@@ -164,9 +166,15 @@
           "FlappyArc.dll": {}
         }
       },
+      "FlappyArc.Resources/1.0.0": {
+        "runtime": {
+          "FlappyArc.Resources.dll": {}
+        }
+      },
       "Tsuki.Framework.Core/1.0.0": {
         "dependencies": {
-          "OpenTK": "4.7.5"
+          "OpenTK": "4.7.5",
+          "Tsuki.Framework.Novel": "1.0.0"
         },
         "runtime": {
           "Tsuki.Framework.Core.dll": {}
@@ -270,6 +278,11 @@
       "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
     },
     "FlappyArc/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FlappyArc.Resources/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

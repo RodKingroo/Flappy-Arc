@@ -13,4 +13,8 @@
     <PackageReference Include="OpenTK" Version="4.7.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Tsuki.Framework.Novel\Tsuki.Framework.Novel.csproj" />
+  </ItemGroup>
+
 </Project>

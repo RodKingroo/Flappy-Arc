@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "FlappyArc/1.0.0": {
         "dependencies": {
+          "FlappyArc.Resources": "1.0.0",
           "Tsuki.Framework.Core": "1.0.0",
           "Tsuki.Framework.Novel": "1.0.0"
         },
@@ -155,9 +156,15 @@
         }
       },
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {},
+      "FlappyArc.Resources/1.0.0": {
+        "runtime": {
+          "FlappyArc.Resources.dll": {}
+        }
+      },
       "Tsuki.Framework.Core/1.0.0": {
         "dependencies": {
-          "OpenTK": "4.7.5"
+          "OpenTK": "4.7.5",
+          "Tsuki.Framework.Novel": "1.0.0"
         },
         "runtime": {
           "Tsuki.Framework.Core.dll": {}
@@ -259,6 +266,11 @@
       "sha512": "sha512-ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
       "path": "system.runtime.compilerservices.unsafe/5.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+    },
+    "FlappyArc.Resources/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Tsuki.Framework.Core/1.0.0": {
       "type": "project",

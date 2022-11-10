@@ -202,11 +202,22 @@
           }
         }
       },
+      "FlappyArc.Resources/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/FlappyArc.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FlappyArc.Resources.dll": {}
+        }
+      },
       "Tsuki.Framework.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "OpenTK": "4.7.5"
+          "OpenTK": "4.7.5",
+          "Tsuki.Framework.Novel": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Tsuki.Framework.Core.dll": {}
@@ -425,6 +436,11 @@
         "version.txt"
       ]
     },
+    "FlappyArc.Resources/1.0.0": {
+      "type": "project",
+      "path": "../FlappyArc.Resources/FlappyArc.Resources.csproj",
+      "msbuildProject": "../FlappyArc.Resources/FlappyArc.Resources.csproj"
+    },
     "Tsuki.Framework.Core/1.0.0": {
       "type": "project",
       "path": "../Tsuki.Framework.Core/Tsuki.Framework.Core.csproj",
@@ -438,6 +454,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "FlappyArc.Resources >= 1.0.0",
       "Tsuki.Framework.Core >= 1.0.0",
       "Tsuki.Framework.Novel >= 1.0.0"
     ]
@@ -475,6 +492,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\Codes\\Flappy-Arc\\FlappyArc.Resources\\FlappyArc.Resources.csproj": {
+              "projectPath": "D:\\Codes\\Flappy-Arc\\FlappyArc.Resources\\FlappyArc.Resources.csproj"
+            },
             "D:\\Codes\\Flappy-Arc\\Tsuki.Framework.Core\\Tsuki.Framework.Core.csproj": {
               "projectPath": "D:\\Codes\\Flappy-Arc\\Tsuki.Framework.Core\\Tsuki.Framework.Core.csproj"
             },

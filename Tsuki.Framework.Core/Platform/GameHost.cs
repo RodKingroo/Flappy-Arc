@@ -1,4 +1,5 @@
-﻿using OpenTK.Windowing.Desktop;
+﻿using Tsuki.Framework.Novel;
+using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.GraphicsLibraryFramework;
 using System.Diagnostics;
