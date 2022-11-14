@@ -1,0 +1,12 @@
+D:\Codes\Flappy-Arc\Tsuki.Framework.Novel\bin\Debug\net7.0\Tsuki.Framework.Novel.deps.json
+D:\Codes\Flappy-Arc\Tsuki.Framework.Novel\bin\Debug\net7.0\Tsuki.Framework.Novel.dll
+D:\Codes\Flappy-Arc\Tsuki.Framework.Novel\bin\Debug\net7.0\Tsuki.Framework.Novel.pdb
+D:\Codes\Flappy-Arc\Tsuki.Framework.Novel\obj\Debug\net7.0\Tsuki.Framework.Novel.csproj.AssemblyReference.cache
+D:\Codes\Flappy-Arc\Tsuki.Framework.Novel\obj\Debug\net7.0\Tsuki.Framework.Novel.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codes\Flappy-Arc\Tsuki.Framework.Novel\obj\Debug\net7.0\Tsuki.Framework.Novel.AssemblyInfoInputs.cache
+D:\Codes\Flappy-Arc\Tsuki.Framework.Novel\obj\Debug\net7.0\Tsuki.Framework.Novel.AssemblyInfo.cs
+D:\Codes\Flappy-Arc\Tsuki.Framework.Novel\obj\Debug\net7.0\Tsuki.Framework.Novel.csproj.CoreCompileInputs.cache
+D:\Codes\Flappy-Arc\Tsuki.Framework.Novel\obj\Debug\net7.0\Tsuki.Framework.Novel.dll
+D:\Codes\Flappy-Arc\Tsuki.Framework.Novel\obj\Debug\net7.0\refint\Tsuki.Framework.Novel.dll
+D:\Codes\Flappy-Arc\Tsuki.Framework.Novel\obj\Debug\net7.0\Tsuki.Framework.Novel.pdb
+D:\Codes\Flappy-Arc\Tsuki.Framework.Novel\obj\Debug\net7.0\ref\Tsuki.Framework.Novel.dll

@@ -6,7 +6,7 @@ namespace Tsuki.Framework.Core.Platform
 {
     public static class NativeConfig
     {
-        public static readonly NativeWindowSettings nativeWindowSettings = new()
+        public static NativeWindowSettings nativeWindowSettings = new()
         {
             Size = new Vector2i(540, 320),
             Title = "Flappy Arc",
