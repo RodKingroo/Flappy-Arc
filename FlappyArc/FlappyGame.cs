@@ -1,6 +1,6 @@
-﻿using Tsuki.Framework.Novel;
-using Tsuki.Framework.Novel.IO;
-using Tsuki.Framework.Novel.Graphics;
+﻿using Tsuki.Framework.Core;
+using Tsuki.Framework.Core.IO;
+using Tsuki.Framework.Core.Graphics;
 using FlappyArc.Resources;
 
 namespace FlappyArc

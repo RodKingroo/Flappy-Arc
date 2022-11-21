@@ -1,5 +1,4 @@
-﻿using Tsuki.Framework.Novel;
-using OpenTK.Windowing.Desktop;
+﻿using OpenTK.Windowing.Desktop;
 using OpenTK.Windowing.Common;
 using OpenTK.Windowing.GraphicsLibraryFramework;
 using System.Diagnostics;
@@ -46,7 +45,7 @@ namespace Tsuki.Framework.Core.Platform
                         _renderFrequency = value;
                         break;
                     default:
-                        Debug.Print("Target render frequency clamped to {0}Hz.", MaxFrequency);
+                        Debug.Print("Target render frequency clamped to {0} Hz.", MaxFrequency);
                         _renderFrequency = MaxFrequency;
                         break;
                 }
@@ -70,7 +69,7 @@ namespace Tsuki.Framework.Core.Platform
                         _updateFrequency = value;
                         break;
                     default:
-                        Debug.Print("Target render frequency clamped to {0}Hz.", MaxFrequency);
+                        Debug.Print("Target render frequency clamped to {0} Hz.", MaxFrequency);
                         _updateFrequency = MaxFrequency;
                         break;
                 }

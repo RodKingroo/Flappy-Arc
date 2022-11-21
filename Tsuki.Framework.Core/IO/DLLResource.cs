@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 
 
-namespace Tsuki.Framework.Novel.IO
+namespace Tsuki.Framework.Core.IO
 {
     public class DLLResource : IResource<byte[]>
     {

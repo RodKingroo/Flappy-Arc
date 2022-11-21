@@ -1,7 +1,7 @@
-﻿using Tsuki.Framework.Novel.IO;
-using Tsuki.Framework.Novel.Graphics;
+﻿using Tsuki.Framework.Core.IO;
+using Tsuki.Framework.Core.Graphics;
 
-namespace Tsuki.Framework.Novel
+namespace Tsuki.Framework.Core
 {
     public abstract class Game
     {

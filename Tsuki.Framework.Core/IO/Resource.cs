@@ -1,6 +1,6 @@
 ﻿
 
-namespace Tsuki.Framework.Novel.IO
+namespace Tsuki.Framework.Core.IO
 {
     public class Resource<T> : IResource<T> where T : class
     {

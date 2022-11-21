@@ -1,4 +1,4 @@
-﻿namespace Tsuki.Framework.Novel.IO
+﻿namespace Tsuki.Framework.Core.IO
 {
     public interface IResource<T> where T : class
     {
